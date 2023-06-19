@@ -14,7 +14,7 @@ jobs:
   comment-with-api:
     runs-on: ubuntu-latest
     steps:
-      - name: Create comment with API
+      - name: "Create comment with API"
       run: |
         gh api -X POST \
           https://api.github.com/repo/${ORGANIZATION}/issues/${ISSUE_NUMBER}/comments \
