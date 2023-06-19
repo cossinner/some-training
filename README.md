@@ -1,0 +1,2 @@
+# some-training
+Learning Git
